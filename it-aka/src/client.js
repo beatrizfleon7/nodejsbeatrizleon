@@ -30,10 +30,6 @@ const axios = require('axios');
   });
 
 
-
-
-
-
 // // get hello-world
 // axios.get('http://localhost:3000/hola')
 //   .then(function (response) {
@@ -88,3 +84,36 @@ const axios = require('axios');
 // .then(function () {
 // console.log('--- --- ---')
 // });
+
+
+
+//const axios = require('axios');
+
+// TEST-0
+// Commentaire du test = ce qu'on cherche a faire
+// axios.post('http://localhost:3000/superheros', {id: '4', name: 'LadyBug'})
+//   .then(function (response) {
+//     console.log(response.data) // handle succes
+//     // { name: 'Environnement', id: 3 }
+//   })
+//   .catch(function (error) {
+//     console.log(error) // handle error
+//   })
+//   .then(function () {
+//     console.log('--- --- ---')
+//   });
+
+// TEST-1
+// Commentaire du test = ce qu'on cherche a faire
+// axios.post('http://localhost:3000/category/', {name: 'Environnement', pays: 'Angleterre'})
+//   .then(function (response) {
+//     console.log(response.data) // handle succes
+//     // { name: 'Environnement', id: 3 }
+//   })
+//   .catch(function (error) {
+//     console.log(error) // handle error
+//   })
+//   .then(function () {
+//     console.log('--- --- ---')
+//   });
+
