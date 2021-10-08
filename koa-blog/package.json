@@ -1,0 +1,25 @@
+{
+  "name": "koa-blog",
+  "version": "1.0.0",
+  "description": "koa-blog",
+  "main": "auth.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node src/tests.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beatrizfleon7/nodejsbeatrizleon.git"
+  },
+  "author": "Beatriz Leon",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "koa": "^2.13.3",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1"
+  }
+}
